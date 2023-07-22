@@ -1,0 +1,250 @@
+{
+    "navBar": {
+        "role": "Étudiant ingénieur"
+    },
+    "navLinks": {
+        "0": {
+            "id": "about",
+            "title": "À propos"
+        },
+        "1": {
+            "id": "work",
+            "title": "Projets"
+        },
+        "2": {
+            "id": "skills",
+            "title": "Compétences"
+        },
+        "3": {
+            "id": "education",
+            "title": "Éducation"
+        },
+        "4": {
+            "id": "contact",
+            "title": "Contact"
+        }
+    },
+    "languages": {
+    "0": {
+        "language": "Anglais"
+    },
+    "1": {
+        "language": "Français"
+    },
+    "2": {
+        "language": "Japonais"
+    }
+    },
+    "hero": {
+        "hi": "Hey, je suis",
+        "name": "Brice Convers",
+    "purpose":{
+        "0": "Étudiant ingénieur à l'Ense3",
+        "1": "avec pour spécialisation traitement du ",
+        "2": "signal",
+        "3": "et",
+        "4": "science des données"
+    },
+    "dive": "Scroll en bas pour en apprendre plus"
+    },
+    "service": {
+        "cv": "Télécharger mon CV"
+    },
+    "about": {
+        "introduction": "Introduction",
+        "overview": "Aperçu",
+        "description": "Je suis un étudiant en génie français à l'université Grenoble INP. Ma spécialité est le traitement des signaux et je recherche un stage dans le domaine biomédical.",
+        "try": "Essayez par vous-même !"
+    },
+    "experiences": {
+        "titles": {
+            "subHead": "Ce que j'ai accompli jusqu'à présent",
+            "head": "Expérience professionnelle"
+        },
+        "0": {
+            "title": "Ingénieur logiciel",
+            "company_name": "AXinc. | ax株式会社",
+            "date": "Mars 2023 - Août 2023",
+            "points": {
+                "0": "Développement et maintenance d'applications web utilisant React.js et d'autres technologies connexes.",
+                "1": "Collaboration avec des équipes pluridisciplinaires comprenant des designers, des chefs de produit et d'autres développeurs pour créer des produits de haute qualité."
+            },
+            "location": "Shibuya, Tokyo, Japon"
+        },
+        "1": {
+            "title": "Stage d'ingénierie sur l'algorithme radar embarqué",
+            "company_name": "Thales",
+            "date": "Juin 2022 - Septembre 2022",
+            "points": {
+                "0": "Ingénieur chargé de l'étude et de l'amélioration des algorithmes de traitement des données radar embarquées.",
+                "1": "Utilisation de Matlab pour travailler sur des scripts de traitement de données.",
+                "2": "Découverte des algorithmes de traitement des données pour les radars embarqués.",
+                "3": "Préparation de la documentation et des présentations d'équipe."
+            },
+            "location": "Bordeaux, France"
+        },
+        "2": {
+            "title": "Vice-trésorier de Junior Ense3",
+            "company_name": "Junior Ense3",
+            "date": "Mars 2021 - Avril 2022",
+            "points": {
+                "0": "Gestion comptable, participation aux audits de la structure.",
+                "1": "Travail d'équipe et participation à des formations en gestion d'entreprise."
+            },
+            "location": "Grenoble, France"
+        },
+        "3": {
+            "title": "Stage en tant qu'ouvrier",
+            "company_name": "Leygatech",
+            "date": "Juin 2021 - Août 2022",
+            "points": {
+                "0": "Stage requis pour l'obtention du diplôme.",
+                "1": "Travail en tant qu'ouvrier dans une usine de plastiques."
+            },
+            "location": "Bordeaux, France"
+        }
+    },
+    "skills": {
+        "titles": {
+            "subHead": "Ce que je maîtrise",
+            "head": "Compétences"
+        },
+        "categories": {
+            "0": "Machine Learning",
+            "1": "Software Development",
+            "2": "Front-end Web",
+            "3": "Back-end Web",
+            "4": "Blockchain"
+        }
+    },
+    "projects": {
+        "titles": {
+            "subHead": "Mon travail jusqu'à présent",
+            "head": "Mes projets"
+        },
+        "description": "Les projets suivants mettent en valeur mes compétences et mon expérience à travers des exemples concrets de mon travail. Chaque projet est brièvement décrit avec des liens vers les dépôts de code et des démonstrations en direct. Ils témoignent de ma capacité à résoudre des problèmes complexes, à travailler avec différentes technologies et à gérer efficacement des projets.",
+        "0": {
+            "name": "Car Rent",
+            "description": "Plateforme web permettant aux utilisateurs de rechercher, réserver et gérer des locations de voitures auprès de différents prestataires, offrant ainsi une solution pratique et efficace pour les besoins de transport."
+        },
+        "1": {
+            "name": "Job IT",
+            "description": "Application web permettant aux utilisateurs de rechercher des offres d'emploi, de consulter des fourchettes de salaire estimées pour les postes et de localiser des emplois disponibles en fonction de leur emplacement actuel."
+        },
+        "2": {
+            "name": "Trip Guide",
+            "description": "Plateforme de réservation de voyages complète permettant aux utilisateurs de réserver des vols, des hôtels et des voitures de location, et offrant des recommandations personnalisées pour les destinations populaires."
+        }
+    },
+    "educations": {
+        "titles": {
+            "subHead": "Ce que j'ai accompli jusqu'à présent",
+            "head": "Éducation"
+        },
+        "content": {
+            "0": {
+                "title": "Master en département d'ingénierie",
+                "school_name": "Grenoble INP, Phelma",
+                "date": "Septembre 2021 - Janvier 2022 et Septembre 2023 - Janvier 2023",
+                "points": {
+                    "0": "Dernière année avant l'obtention du diplôme avec une spécialisation en traitement d'images et de signaux."
+                },
+                "location": "Grenoble, France"
+            },
+            "1": {
+                "title": "École de langue japonaise",
+                "school_name": "Yokohama Design College",
+                "date": "Octobre 2022 - Mars 2023",
+                "points": {
+                    "0": "Cours intensif de japonais pour préparer l'examen officiel JLPT."
+                },
+                "location": "Yokohama, Japan"
+            },
+            "2": {
+                "title": "Échange académique dans une université étrangère",
+                "school_name": "Postech",
+                "date": "Janvier 2023 - Juin 2023",
+                "points": {
+                    "0": "Département d'électrotechnique et d'informatique,",
+                    "1": "Cours:",
+                    "2": "Imagerie radar (Matlab),",
+                    "3": "Apprentissage automatique,",
+                    "4": "Introduction à la communication numérique,",
+                    "5": "Structure de données (C++),",
+                    "6": "Blockchain et cryptomonnaie (Solidity)"
+                },
+                "location": "Pohang, South Korea"
+            },
+            "3": {
+                "title": "Licence en département d'ingénierie",
+                "school_name": "Grenoble INP, Ense3",
+                "date": "Septembre 2020 - Juin 2021",
+                "points": {
+                    "0": "Dernière année où j'ai obtenu mon diplôme en licence de mécanique et d'automatique."
+                },
+                "location": "Grenoble, France"
+            },
+            "4": {
+                "title": "École de préparation aux grandes écoles",
+                "school_name": "Lycée Claude Fauriel",
+                "date": "Septembre 2018 - Juin 2021",
+                "points": {
+                    "0": "Préparation à l'entrée dans une université sélective dans une classe préparatoire."
+                },
+                "location": "Saint-Étienne, France"
+            }
+        }
+    },
+    "highlights": {
+        "titles": {
+            "subHead": "Ce que j'ai accompli jusqu'à présent",
+            "head": "Moments forts"
+        },
+        "0": {
+            "testimonial": "J'ai suivi un programme d'échange international en Corée du Sud pendant 6 mois. J'étais à l'Université Postech.",
+            "name": "Postech, Corée du Sud",
+            "designation": "Cours universitaires"
+        },
+        "1": {
+            "testimonial": "Pendant mon année sabbatique, j'ai passé un an au Japon. J'ai suivi des cours intensifs de japonais pour passer le JLPT N3.",
+            "name": "Yokohama, Japon",
+            "designation": "Cours de langue"
+        },
+        "2": {
+            "testimonial": "J'ai effectué un stage en développement de logiciels chez AX company. J'ai travaillé sur la création d'un métaverse.",
+            "name": "Tokyo, Japon",
+            "designation": "Stage en ingénierie"
+        }
+    },
+    "contact":{
+        "titles": {
+            "subHead": "Restons en contact",
+            "head": "Utilise ton email,"
+        },
+        "input": {
+            "name": {
+                "outside": "Nom",
+                "inside": " Quel est ton nom ?"
+            },
+            "email": {
+                "outside": "Email",
+                "inside": " Quel est ton email ?"
+            },
+            "message": {
+                "outside": "Message",
+                "inside": "Que voudrais-tu me me dire ?"
+            }
+        },
+        "button": {
+            "send": "Envoyer",
+            "sending": "Envoi"
+        },
+        "more": "Ou bien plus"
+    },
+    "footer":{
+        "aboutus": "À propos",
+        "github": "GitHub",
+        "license": "Licence",
+        "contactus": "Contactez-nous"
+    }
+}

@@ -1,0 +1,11 @@
+Model Information:
+* title:	Nanando diver - Underwater
+* source:	https://sketchfab.com/3d-models/nanando-diver-underwater-0073b3e5348640fbbaf73278726400fb
+* author:	markolopezgallegos20 (https://sketchfab.com/markolopezgallegos20)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Nanando diver - Underwater" (https://sketchfab.com/3d-models/nanando-diver-underwater-0073b3e5348640fbbaf73278726400fb) by markolopezgallegos20 (https://sketchfab.com/markolopezgallegos20) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
