@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 import { useTranslation } from "react-i18next";
 import 'react-vertical-timeline-component/style.min.css';
 import { styles } from '../styles';
-import { educations } from '../constants';
+import { education } from '../constants';
 import { SectionWrapper } from '../hoc';
 import { textVariant } from '../utils/motion';
 
@@ -16,7 +16,7 @@ const EducationCard = ({education, index}) => {
           color: '#fff'
         }}
         contentArrowStyle={{borderRight: '7px solid #232631'}}
-        date={t(`educations.content.${index}.date`)}
+        date={t(`education.content.${index}.date`)}
         iconStyle={{
           background: 'experience.iconBg'
         }}
@@ -24,7 +24,7 @@ const EducationCard = ({education, index}) => {
             <a href={education.link} target="_blank" className='cursor-pointer flex overflow-visible rounded-full justify-center items-center w-full h-full bg-white transition-all duration-200 ease-in-out hover:scale-[140%] '>
               <img
                 src={education.icon}
-                alt={t(`educations.content.${index}.school_name`)}
+                alt={t(`education.content.${index}.school_name`)}
                 className='w-[90%] h-[90%] object-contain rounded-full'
               />
             </a>
@@ -32,12 +32,12 @@ const EducationCard = ({education, index}) => {
       >
         <div>
           <h3 className='text-white text-[28px] font-bold'>
-          {t(`educations.content.${index}.title`)}
+          {t(`education.content.${index}.title`)}
           </h3>
           <p className='text-secondary text-[16px] font-semibold'
             style={{margin: 0}}
           >
-            {t(`educations.content.${index}.school_name`)}
+            {t(`education.content.${index}.school_name`)}
           </p>
         </div>
 
@@ -47,12 +47,12 @@ const EducationCard = ({education, index}) => {
               key={`education-point-${subIndex}`}
               className='text-white-100 text-[16px] pl-1 tracking-wider'
             >
-            {t(`educations.content.${index}.points.${subIndex}`)}
+            {t(`education.content.${index}.points.${subIndex}`)}
             </li>
           ))}
         </ul>
         <p className='text-secondary font-medium text-[16px]'>
-            <span className='red-text-gradient'>📌 &nbsp;</span> {t(`educations.content.${index}.location`)}
+            <span className='red-text-gradient'>📌 &nbsp;</span> {t(`education.content.${index}.location`)}
         </p>
       </VerticalTimelineElement>
   )
@@ -61,17 +61,14 @@ const EducationCard = ({education, index}) => {
 const Education = () => {
   const { t } = useTranslation();
   return (
-    <div className='rounded-xl bg-primaryLight p-10 dark:bg-transparent shadow-2xl'>
-      <motion.div
-        variants={textVariant()}
-      >
-        <p className={`${styles.sectionSubText}z-0`}>{t("educations.titles.subHead")}</p>
-        <h2 className={`${styles.sectionHeadText} `}>{t("educations.titles.head")}</h2>
-      </motion.div>
+    <div className='rounded-xl bg-primaryLight dark:bg-transparent shadow-2xl sm:p-10 -m-4 p-4'>
+
+        <p className={`${styles.sectionSubText}`}>{t("education.titles.subHead")}</p>
+        <h2 className={`${styles.sectionHeadText}`}>{t("education.titles.head")}</h2>
 
       <div className='mt-20 flex flex-col'>
         <VerticalTimeline>
-          {educations.map((education, index) => (
+          {education.map((education, index) => (
               <EducationCard key ={index} education={education} index={index} />
             ))}
         </VerticalTimeline>

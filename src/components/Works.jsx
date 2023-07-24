@@ -38,7 +38,7 @@ const ProjectCard = ({
           <div className='absolute inset-0 flex gap-[5px] justify-end m-3 card-img_hover'>
             <div
               onClick={() => window.open(source_code_link, "_blank")}
-              className='black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer hover:scale-110 transition-all ease-in-out duration-200'
+              className='black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer hover:scale-110 transition-all ease-in-out duration-200 border border-secondary'
             >
               <img
                 src={github}
@@ -48,7 +48,7 @@ const ProjectCard = ({
             </div>
             <div
               onClick={() => window.open(demo_code_link, "_blank")}
-              className='black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer hover:scale-110 transition-all ease-in-out duration-200'
+              className='black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer hover:scale-110 transition-all ease-in-out duration-200 border border-secondary'
             >
               <img
                   src={play}
@@ -83,7 +83,7 @@ const Works = () => {
   const { t } = useTranslation();
 
   return (
-    <div className="bg-primaryLight dark:bg-transparent p-[30px] rounded-xl z-[-1]">
+    <div className="bg-primaryLight dark:bg-transparent rounded-xl z-[-1] sm:p-10 -m-4 p-4">
       <motion.div variants={textVariant()}>
         <p className={`${styles.sectionSubText} `}>{t("projects.titles.head")}</p>
         <h2 className={`${styles.sectionHeadText}`}>{t("projects.titles.head")}</h2>
@@ -100,7 +100,7 @@ const Works = () => {
 
       <div className='mt-20 flex flex-col items-center justify-center gap-[30px] lg:flex-row flex-wrap'>
         {projects.map((project, index) => (
-          <ProjectCard key={`project-${index}`} index={index} {...project} demo_code_link="" />
+          <ProjectCard key={`project-${index}`} index={index} {...project} />
         ))}
       </div>
     </div>

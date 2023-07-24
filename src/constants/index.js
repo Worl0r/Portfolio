@@ -17,8 +17,6 @@ import {
     web3js,
     tensorFlow,
     unity,
-    carrent,
-    jobit,
     threeJs,
     Ense3,
     LCF,
@@ -34,6 +32,8 @@ import {
     england,
     france,
     Portfolio3D,
+    linkedin,
+    CVConversBrice
   } from "../assets";
 
   export const navLinks = [
@@ -51,7 +51,7 @@ import {
     },
     {
       id: "education",
-      title: "Educations",
+      title: "Education",
     },
     {
       id: "contact",
@@ -86,7 +86,8 @@ import {
 
   const aboutEN =[
     {
-      description: "I am a french engineering student in Grenoble INP univerty. My major is signal processing and I am seeking an internship to work in a the biomedial fields."
+      description: "I am a french engineering student in Grenoble INP univerty. My major is signal processing and I am seeking an internship to work in a the biomedial fields.",
+      cvEN: CVConversBrice
     }
   ]
 
@@ -230,6 +231,7 @@ import {
       points: [
         "Developing and maintaining web applications using React.js and other related technologies.",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+        "",
       ],
       location: "Shibuya, Tokyo, Japan",
       link: "https://axinc.jp/",
@@ -281,7 +283,7 @@ import {
     },
   ];
 
-  const educations = [
+  const education = [
     {
       title: "Master in engineering departement",
       school_name: "Grenoble INP, Phelma",
@@ -406,59 +408,24 @@ import {
         },
       ],
       image: Portfolio3D,
-      source_code_link: "https://github.com/",
-    },
-    {
-      name: "Car Rent",
-      description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
-      tags: [
-        {
-          name: "react",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "mongodb",
-          color: "green-text-gradient",
-        },
-        {
-          name: "tailwind",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: carrent,
-      source_code_link: "https://github.com/",
-    },
-    {
-      name: "Job IT",
-      description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-      tags: [
-        {
-          name: "react",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "restapi",
-          color: "green-text-gradient",
-        },
-        {
-          name: "scss",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: jobit,
-      source_code_link: "https://github.com/",
-    },
-]
+      source_code_link: "https://github.com/Worl0r/Portfolio.git",
+      demo_code_link: "https://briceconvers.com"
+    }
+  ];
 
 const socialNetworks = [
     {
-      imageName: "linkedin",
+      image: linkedin,
       socialNetwork: "Linkedin",
       link: "https://www.linkedin.com/in/brice-convers/",
     }
-    ]
-  ;
+    ];
 
-  export { services,languages, aboutEN, technologies, categories, experiences, educations, testimonials, projects, socialNetworks };
+const footer = [
+  {
+    github: "https://github.com/Worl0r",
+    license: "https://github.com/Worl0r/Portfolio/blob/main/MITLicense.md"
+  }
+]
+
+  export { services,languages, aboutEN, technologies, categories, experiences, education, testimonials, projects, socialNetworks, footer };

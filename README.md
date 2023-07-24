@@ -15,7 +15,7 @@ You can find on this repo a website to present myself, my backgrounds and my IT 
 
 ## How to try a demo
 
-You can find the project living here: **[brice-convers.com](https://www.google.com/)**.
+You can find the project living here: **[briceconvers.com](https://www.briceconvers.com/)**.
 
 ## How to get stated
 
@@ -64,16 +64,17 @@ You can try other flags in the command with this website: **[How to use chown co
 What I plan to do in the future:
 
 - [ ] Finish the translation in: JP, FR, EN.
-- [ ] Finish to decide colors for the light mode.
+- [x] Finish to decide colors for the light mode.
 - [ ] Create and add a new email for mailjs components.
-- [ ] Details more about the internships and about hypotetical demo
+- [ ] Details more about the internships and about hypotetical demo.
+- [ ] Implement the functionality to choose a CV according the selected language.
 
 And Juste before to deploy:
 
-- [ ] Correct all mistakes in the text
-- [ ] Read and clean the code for the git hub
-- [ ] Create a repo on git hub
-- [ ] Create a domain for the portfolio
+- [ ] Correct all mistakes in the text.
+- [ ] Read and clean the code for the git hub.
+- [x] Create a repo on git hub.
+- [x] Create a domain for the portfolio.
 
 # Credits
 

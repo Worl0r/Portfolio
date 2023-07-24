@@ -64,19 +64,17 @@ const ExperienceCard = ({experience, index}) => {
 
 const Experience = () => {
   const { t } = useTranslation();
-  const [hoverTitle, switchHoverTitle] = useState(false);
 
   return (
-    <div className='rounded-xl bg-primaryLight p-10 dark:bg-transparent shadow-2xl'>
-      <motion.div variants={textVariant()}>
-        <p className={`${styles.sectionSubText} mx-10 z-0`}>{t("experiences.titles.subHead")}</p>
-        <h2 className={`${styles.sectionHeadText} mx-10`} onMouseEnter={() => switchHoverTitle(true)} onMouseLeave={() => switchHoverTitle(false)} >
-          <div className={`absolute left-[10px] transition-opacity duration-300 delay-100 ease-in-out ${hoverTitle? "opacity-100 " : "opacity-0 "}`}>
-            #
-          </div>
+    <div className='rounded-xl bg-primaryLight dark:bg-transparent shadow-2xl sm:py-10 sm:p-10 -m-4 p-4'>
+
+        <p className={`${styles.sectionSubText} md:mx-10 w-full`}>
+          {t("experiences.titles.subHead")}
+        </p>
+        <h2 className={`${styles.sectionHeadText} md:mx-10 w-full`} >
           {t("experiences.titles.head")}
         </h2>
-      </motion.div>
+
 
       <div className='mt-20 flex flex-col'>
         <VerticalTimeline>

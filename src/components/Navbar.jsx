@@ -70,7 +70,7 @@ const Navbar = () => {
             <LanguagesMenu />
           </motion.div>
 
-          <ul className='list-none hidden xl:flex flex:row gap-10'>
+          <ul className='list-none hidden xl:flex flex-row gap-10'>
             {navLinks.map((link, index) => (
               <motion.div
                 key={link.id}
@@ -93,11 +93,11 @@ const Navbar = () => {
             ))}
           </ul>
 
-          <div className='xl:hidden flex flex-1 justify-end items-center'>
+          <div className='xl:hidden flex justify-end items-center'>
             <img
               src={toggle ? close : menu}
               alt="menu"
-              className={`${toggle ? " " : "scale-[80%] "} w-[280px] h-[28px] object-contain cursor-pointer`}
+              className={`${toggle ? " " : "scale-[80%] "} w-[80px] h-[28px] object-contain cursor-pointer`}
               onClick={() => setToggle(!toggle)}
             />
             <div className={`${!toggle ? 'hidden'

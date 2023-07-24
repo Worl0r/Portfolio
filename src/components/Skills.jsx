@@ -33,7 +33,7 @@ const Skills = () => {
   const { t } = useTranslation();
 
   return (
-    <div className={`${styles.padding} bg-tertiaryLight p-[30px] shadow-2xl rounded-xl dark:bg-transparent`}>
+    <div className={`${styles.padding} bg-tertiaryLight shadow-2xl rounded-xl dark:bg-transparent sm:p-10 -m-4 p-4`}>
       <motion.div variants={textVariant()}>
         <p className={`${styles.sectionSubText}`}>{t("skills.titles.subHead")}</p>
         <h2 className={`${styles.sectionHeadText}`}>{t("skills.titles.head")}</h2>

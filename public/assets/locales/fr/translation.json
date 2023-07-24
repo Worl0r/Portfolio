@@ -126,17 +126,9 @@
         "0": {
             "name": "Car Rent",
             "description": "Plateforme web permettant aux utilisateurs de rechercher, réserver et gérer des locations de voitures auprès de différents prestataires, offrant ainsi une solution pratique et efficace pour les besoins de transport."
-        },
-        "1": {
-            "name": "Job IT",
-            "description": "Application web permettant aux utilisateurs de rechercher des offres d'emploi, de consulter des fourchettes de salaire estimées pour les postes et de localiser des emplois disponibles en fonction de leur emplacement actuel."
-        },
-        "2": {
-            "name": "Trip Guide",
-            "description": "Plateforme de réservation de voyages complète permettant aux utilisateurs de réserver des vols, des hôtels et des voitures de location, et offrant des recommandations personnalisées pour les destinations populaires."
         }
     },
-    "educations": {
+    "education": {
         "titles": {
             "subHead": "Ce que j'ai accompli jusqu'à présent",
             "head": "Éducation"
@@ -219,7 +211,7 @@
     "contact":{
         "titles": {
             "subHead": "Restons en contact",
-            "head": "Utilise ton email,"
+            "head": "Utilise ton email"
         },
         "input": {
             "name": {

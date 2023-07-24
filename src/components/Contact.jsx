@@ -124,6 +124,7 @@ const Contact = () => {
 
         </form>
       </motion.div>
+
       <div className=" flex xl:flex-col flex-col-reverse">
         <motion.div
           variants={
@@ -138,6 +139,7 @@ const Contact = () => {
           variants={
             slideIn("down", "tween", 0.2, 1)
           }
+          className='shaddow-xl'
         >
             <div className="xs:mt-10 bottom-0 text-white flex justify-center dark:text-white font-black text-[35px]">
               {t("contact.more")}

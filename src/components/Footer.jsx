@@ -2,6 +2,7 @@ import { Typography } from "@material-tailwind/react";
 import { logo } from "../assets";
 import { useTranslation } from "react-i18next";
 import { styles } from '../styles';
+import { footer } from "../constants/index";
 
 const Footer = () => {
     const { t } = useTranslation();
@@ -10,12 +11,14 @@ const Footer = () => {
         <footer className="w-full bg-primaryLight dark:bg-primary p-8">
             <hr className="my-8 border-blue-gray-50 opacity-70" />
             <div className="flex flex-row flex-wrap items-center justify-center gap-y-3 gap-x-12 primaryLight dark:bg-primary text-center md:justify-between">
-                <img src={logo} alt="logo-ct" className="w-10 opacity-50 rounded-lg" />
+                <a href="#" className="cursor">
+                    <img src={logo} alt="logo-ct" className="w-10 opacity-50 rounded-lg" />
+                </a>
                 <ul className="flex flex-wrap items-center gap-y-2 gap-x-8">
                 <li>
                     <Typography
                     as="a"
-                    href="#"
+                    href="#about"
                     className={`${styles.colorTextNavBarHover} text-secondary font-normal transition-colors`}
                     >
                     {t("footer.aboutus")}
@@ -24,7 +27,8 @@ const Footer = () => {
                 <li>
                     <Typography
                     as="a"
-                    href=""
+                    href={footer[0].github}
+                    target="_blank"
                     className={`${styles.colorTextNavBarHover} text-secondary font-normal transition-colors`}
                     >
                     {t("footer.github")}
@@ -33,7 +37,8 @@ const Footer = () => {
                 <li>
                     <Typography
                     as="a"
-                    href="#"
+                    href={footer[0].license}
+                    target="_blank"
                     className={`${styles.colorTextNavBarHover} text-secondary font-normal transition-colors`}
                     >
                     {t("footer.license")}
