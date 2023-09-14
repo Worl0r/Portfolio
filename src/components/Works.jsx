@@ -85,7 +85,7 @@ const Works = () => {
   return (
     <div className="bg-primaryLight dark:bg-transparent rounded-xl z-[-1] sm:p-10 -m-4 p-4">
       <motion.div variants={textVariant()}>
-        <p className={`${styles.sectionSubText} `}>{t("projects.titles.head")}</p>
+        <p className={`${styles.sectionSubText} `}>{t("projects.titles.subHead")}</p>
         <h2 className={`${styles.sectionHeadText}`}>{t("projects.titles.head")}</h2>
       </motion.div>
 
@@ -107,4 +107,4 @@ const Works = () => {
   );
 };
 
-export default SectionWrapper(Works, "");
+export default SectionWrapper(Works, "projects");

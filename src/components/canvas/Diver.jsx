@@ -12,10 +12,10 @@ const DiverModel = ({isMobile}) => {
       <pointLight intensity={1.5} />
       <primitive
         object={computer.scene}
-        scale={isMobile ? 0.007 : 0.75}
-        position={isMobile ? [0.01, 0.01, -0.5] : [0.01, 0.5, 0.01]}
+        scale={isMobile ? 0.5 : 0.75}
+        position={isMobile ? [1.3, 1.6, -2] : [0.01, 0.5, 0.01]}
         //rotation={isMobile ? [0.4, 1, -0.4] : [0.4, 1, -0.4]}
-        rotation={isMobile ? [0.01, 2, 2] : [-0.6, 1, 0.5]}
+        rotation={isMobile ? [-0.6, 1, 0.5] : [-0.6, 1, 0.5]}
       />
        <hemisphereLight intensity={0.8} groundColor='black'
         position={[0, -6, -1.5]}

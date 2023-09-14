@@ -29,13 +29,13 @@ const Contact = () => {
     setLoading(true);
 
     emailjs.send(
-      "service_gp3t37j",
+      "service_iyd6u4u",
       "template_wj6ov4s",
         {
           form_name: form.name,
           to_name: "Brice",
           from_email: form.email,
-          to_email: "convers.brice@gmail.com",
+          to_email: "nowzcorp@gmail.com",
           message: form.message,
         },
       "xYtO0J1MdErVgjok9"

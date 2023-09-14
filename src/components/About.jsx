@@ -58,15 +58,13 @@ const About = () => {
 
       <motion.p
             variants={textVariant()}
-            className={`${styles.colorText} mt-5 text-[17px] max-w-lg leading-[23px] items-center pb-[40px]`}
+            className={`${styles.colorText} mt-5 text-[17px] max-w-lg leading-[23px] items-center pb-[0px]`}
           >
             {t("about.description")}
       </motion.p>
 
       <div className=' flex flex-col lg:flex-row  justify-start align-middle items-center'>
         <div className='flex-1'>
-
-
           <motion.div
             variants={fadeIn("right", "spring", 0.2, 1)}
           >
@@ -86,7 +84,7 @@ const About = () => {
         <motion.div
             variants={fadeIn("left", "spring", 0.1 +0.5, 1)}
         >
-          <div className='lg:w-[350px] lg:h-[350px] xl:w-[550px] xl:h-[550px] xl:-mt-[100px] ml-0 rounded-full p-[20px] bg-inputBackground dark:bg-tertiary border-2 border-tertiary dark:border-black'>
+          <div className='lg:w-[350px] lg:h-[350px] xl:w-[550px] xl:h-[550px] xl:-mt-[210px] lg:-mt-[210px] ml-0 rounded-full p-[20px] bg-inputBackground dark:bg-tertiary border-2 border-tertiary dark:border-black'>
             <img src={me} alt='me-photo' className='shadow-card rounded-full object-center'/>
           </div>
         </motion.div>

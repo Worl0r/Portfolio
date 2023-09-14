@@ -5,6 +5,7 @@ import { useTranslation } from "react-i18next";
 import '../index.css'
 import { styles } from '../styles';
 import { DiverCanvas, StarsCanvas } from './canvas';
+import { hero } from '../constants';
 
 const Hero = () => {
   const { t } = useTranslation();
@@ -18,14 +19,14 @@ const Hero = () => {
         whileInView='show'
         viewport={{ once: true, amount: 0.25 }}
         >
-        <div className={`${styles.paddingX} absolute inset-0 md:top-[120px] top-[120px] max-w-7x1 mx-auto flex flex-row items-start gap-5`}>
+        <div className={`${styles.paddingX} absolute inset-0 md:top-[120px] top-[120px] max-w-7x1 mx-auto flex flex-row items-start gap-5 `}>
 
         <motion.div
           variants={
             fadeIn("right", "spring", 1+0.5, 2)
           }
         >
-          <div className='flex flex-col justify-center items-center mt-5'>
+          <div className='flex flex-col justify-center items-center mt-7'>
             <div className='w-5 h-5 rounded-full bg-[#915eff]' />
             <div className='w-1 sm:h-80 h-40 blue-gradient' />
           </div>
@@ -37,7 +38,7 @@ const Hero = () => {
             fadeIn("right", "spring", 1, 2)
             }
           >
-            <p className={`${styles.heroSubText} mt-[17px] text-secondary dark:text-indigo-100`}>
+            <p className={`${styles.heroSubText} mt-[17px] text-secondary dark:text-indigo-100 `}>
              {t("hero.hi")}
             </p>
           </motion.div>
@@ -59,10 +60,15 @@ const Hero = () => {
             }
             className='flex-[1] max-w-3xl'
           >
-            <p className={`${styles.heroSubText} text-white`}>
+            <p className={`${styles.heroSubText} rounded-xl text-white`}>
               {t("hero.purpose.0")}
+                <a href={hero[0].schoolLink} target='_blank' rel="noreferrer">
+                  <span className='hover:underline underline-offset-4 group-hover:transition-all ease-in-out duration-200 font-bold '>
+                    {t("hero.purpose.1")}
+                  </span>
+                </a>
               <br className='sm:block hidden'/>
-              {t("hero.purpose.1")} <span className='font-bold'>{t("hero.purpose.2")}</span> {t("hero.purpose.3")} <span className='font-bold'>{t("hero.purpose.4")}</span>
+              {t("hero.purpose.2")} <span className='font-bold'>{t("hero.purpose.3")}</span> {t("hero.purpose.4")} <span className='font-bold'>{t("hero.purpose.5")}</span>
             </p>
           </motion.div>
         </div>
@@ -71,7 +77,7 @@ const Hero = () => {
             variants={
               fadeIn("left", "spring", 1+0.2, 1.75)
             }
-            className={`absolute hidden md:flex -top-10 h-full right-10 mx-4 my-60 min-w-[500px] min-h-[500px] md:z-0 z-[-1] rounded-full `}
+            className={`absolute hidden md:flex -top-10 h-full right-10 mx-4 my-60 min-w-[500px] min-h-[550px] md:z-0 z-[-1] rounded-full `}
           >
             <DiverCanvas/>
         </motion.div>
@@ -80,20 +86,20 @@ const Hero = () => {
             variants={
               fadeIn("up", "spring", 1+0.7+0.5+0.5, 2)
             }
-            className={`absolute sm:bottom-12 bottom-20 flex justify-left items-center ${styles.heroSubText}
+            className={`absolute bottom-20 sm:bottom-12 lg:bottom-0 flex justify-left items-center ${styles.heroSubText}
           dark:text-white text-secondary
           `}
         >
-          <div className='flex justify-center items-center'>
+          <div className='flex gap-5 justify-center items-center'>
             <div className='w-5 h-5 rounded-full bg-[#915eff]' />
             <div className='w-1 sm:h-80 h-40 blue-gradient' />
           </div>
 
-          <div className='ml-10 bg-blue max-w-xl mr-10 rounded-xl xl:bg-transparent md:bg-inputBackground dark:md:bg-black p-2 opacity-90'>
+          <div className=' bg-blue max-w-xl m-auto rounded-xl xl:bg-transparent dark:xl:bg-transparent md:bg-inputBackground dark:md:bg-black p-2 opacity-90 bg-transparent dark:bg-transparent'>
               {t("hero.dive")}
           </div>
 
-          <div className='md:absolute sm:left-[700px] flex-row justify-left items-center mr-10'>
+          <div className=' flex-row justify-left items-center mr-10 p-6 rounded-full z-20 xl:bg-transparent dark:xl:bg-transparent md:bg-inputBackground dark:md:bg-black opacity-90 bg-transparent dark:bg-transparent'>
             <a href='#about'>
               <div className='w-[35px] h-[64px] border-4 border-white dark:border-secondary flex justify-center items-start p-2 rounded-full hover:scale-110 transition-all ease-in-out duration-200'>
                 <motion.div

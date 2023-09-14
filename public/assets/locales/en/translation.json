@@ -16,10 +16,14 @@
             "title": "Skills"
         },
         "3": {
+            "id": "projects",
+            "title": "Projects"
+        },
+        "4": {
             "id": "education",
             "title": "Education"
         },
-        "4": {
+        "5": {
             "id": "contact",
             "title": "Contact"
         }
@@ -36,25 +40,26 @@
         }
     },
     "hero": {
-        "hi": "Hi, I'm",
+        "hi": "Hey, I am",
         "name": "Brice Convers",
         "purpose":{
-            "0": "I am an engineering student, at Ense3",
-            "1": "with a major in signal ",
-            "2": "processing",
-            "3": "and",
-            "4": "data science"
+            "0": "an engineering student at ",
+            "1": "Grenoble INP Ense3,",
+            "2": " majoring in ",
+            "3": "signal processing",
+            "4": "and",
+            "5": "data science."
         },
-        "dive": "Let's dive straight into my purpose"
+        "dive": "Let's dive straight into my experience"
     },
     "service": {
         "cv": "Download my CV"
     },
     "about": {
-        "introduction": "Introduction",
+        "introduction": "Who I am",
         "overview": "Overview",
-        "description": "I am a french engineering student in Grenoble INP univerty. My major is signal processing and I am seeking an internship to work in the biomedial fields.",
-        "try": "Give it a go !"
+        "description": "My studies have introduced me to a wide range of technologies and theoretical concepts, but I have also put my knowledge into practice through various projects. Currently in my final year of studies, I am looking for an internship in which I can thrive. Most importantly, I would like to make the most of my knowledge acquired through my experiences.",
+        "try": "Give it a go!"
     },
     "experiences": {
         "titles": {
@@ -62,85 +67,87 @@
             "head": "Work Experience"
         },
         "0": {
-            "title": "Full stack engineering internship",
+            "title": "Full stack Engineering Internship",
             "company_name": "AXinc. | ax株式会社",
             "date": "March 2023 - August 2023",
             "points": {
-                "0": "Developing front-end elements for a metaverse project called Zexaland. For instance, I created a login component with metamask in javascript.",
-                "1": "In addition, I improved back-end's fonctionalities in this project, such as adding new routes or creating a virtual cursor in the Unity part.",
-                "2": "I also helped to test and improved a big project based on the detection of dash board's car elements with image processing scripts."
+                "0": "I Developed frontend elements for a metaverse project called Zexaland. For instance, I created a login component with metamask in javascript.",
+                "1": "In addition, I improved backend's fonctionalities in this project, such as adding new routes or creating a virtual cursor in the Unity part.",
+                "2": "I also helped to test and improve a significant project based on the detection of dashboard's car elements with image processing scripts.",
+                "3": "Finally, I built a cash update system on a AWS S3 server in order to sync up all data of the dashboard images project."
+
             },
-            "location": "Shibuya, Tokyo, Japan"
+            "location": "Tokyo, Japan"
         },
         "1": {
-            "title": "Engineering internship on Radar airborne algorithm",
+            "title": "Engineering Internship on Radar Airborne Algorithm",
             "company_name": "Thales",
-            "date": "Juin 2022 - September 2022",
+            "date": "June 2022 - September 2022",
             "points": {
-                "0": "Engineer for the study and improvement of airborne radar data processing algorithms.",
-                "1": "Use of matlab to work on data processing scripts.",
-                "2": "Discovery of data processing algorithms for airborne radar.",
-                "3": "Preparation of documentation and team presentations."
+                "0": "I worked on the improvement of airborne radar data processing algorithms.",
+                "1": "I was using Matlab to work on data processing scripts.",
+                "2": "This experience allows me to discover deeply data processing algorithms for airborne radar.",
+                "3": "I also wrote some documentations and made team presentations."
             },
             "location": "Bordeaux, France"
         },
         "2": {
-            "title": "Vice treasurer of Juinior Ense3",
+            "title": "Vice Treasurer of Junior Ense3",
             "company_name": "Junior Ense3",
             "date": "March 2021 - April 2022",
             "points": {
-                "0": "Management accounting, participation in audits of the stucture.",
-                "1": "Teamwork and participation in business management training courses."
+                "0": "I have been introduced to management and accounting skills. With this position, I could also participate to audits of the stucture.",
+                "1": "I improved teamwork and participation skills with the attendance of business management training courses."
             },
             "location": "Grenoble, France"
         },
         "3": {
-            "title": "Intership as Worker",
+            "title": "Internship as Factory Worker",
             "company_name": "Leygatech",
             "date": "June 2021 - August 2022",
             "points": {
-                "0": "Internship required to be graduated.",
-                "1": "working as a laborer in a plastics factory."
+                "0": "It was an mandatory internship for graduation.",
+                "1": "I worked as a laborer in a plastic factory."
             },
-            "location": "Bordeaux, France"
+            "location": "Saint-Romain-Lachalm, France"
         }
     },
     "skills": {
         "titles": {
-            "subHead": "What I handle",
+            "subHead": "What I can do",
             "head": "Skills"
         },
         "categories": {
             "0": "Machine Learning",
             "1": "Software Development",
-            "2": "Front-end Web",
-            "3": "Back-end Web",
+            "2": "Frontend Web",
+            "3": "Backend Web",
             "4": "Blockchain"
         }
     },
     "projects": {
         "titles": {
-            "subHead": "My work",
+            "subHead": "What I built",
             "head": "Projects"
         },
-        "description": "Following projects showcases my skills and experience through\nreal-world examples of my work. Each project is briefly described with\nlinks to code repositories and live demos.",
+        "description": "The following projects showcase my skills and experience through examples done during my free time. Each project is briefly described with\nlinks to code repositories and live demos.",
         "0": {
             "name": "My Personal Portfolio 3D",
-            "description": "A comprehensive personal portfolio platform that allows to present my projects, purpose, and motivation, in order to get a job."
+            "description": "A comprehensive personal portfolio platform that presents my projects, objectives and motivation."
         }
     },
     "education": {
         "titles": {
-            "subHead": "What I have done so far",
+            "subHead": "What I have completed so far",
             "head": "Education"
         },
         "content": {
             "0": {
-                "title": "Master in engineering departement",
+                "title": "Master in Engineering",
                 "school_name": "Grenoble INP, Phelma",
-                "date": "September 2021 - January 2022 and September 2023 - January 2023",
+                "date": "September 2021 - January 2022 and September 2023 - September 2024",
                 "points": {
-                    "0": "Last year before to be graduated with major of signal image and signal processing."
+                    "0": "Major in Signal and image processing, communication systems, multimedia (SICOM)"
                 },
                 "location": "Grenoble, France"
             },
@@ -149,31 +156,31 @@
                 "school_name": "Yokohama Design College",
                 "date": "October 2022 - March 2023",
                 "points": {
-                    "0": "Intensive Japanese course to prepare for the official JLPT exam."
+                    "0": "Intensive Japanese course to prepare for the official Japanese-Language Proficiency Test (JLPT)."
                 },
                 "location": "Yokohama, Japan"
             },
             "2": {
-                "title": "Academic exchange in foreign university",
+                "title": "Academic Exchange",
                 "school_name": "Postech",
-                "date": "January 2023 - June 2023",
+                "date": "January 2022 - June 2022",
                 "points": {
-                    "0": "Electrical and computer departement,",
-                    "1": "Courses:",
-                    "2": "Radar Imaging (Matlab),",
-                    "3": "Machine Learning,",
-                    "4": "Introduction to Digital Communication",
-                    "5": "Data Structure (C++),",
-                    "6": "Bockchain & Cryptocurrency (Solidity)"
+                    "0": "In the Electrical and computer departement, I took part in the following courses: ",
+                    "1": "Radar Imaging (Matlab),",
+                    "2": "Machine Learning,",
+                    "3": "Introduction to Digital Communication",
+                    "4": "Data Structure (C++),",
+                    "5": "Bockchain & Cryptocurrency (Solidity)"
                 },
                 "location": "Pohang, South Korea"
             },
             "3": {
-                "title": "Bachelor in engineering departement",
+                "title": "Bachelor in Engineering",
                 "school_name": "Grenoble INP, Ense3",
                 "date": "September 2020 - June 2021",
                 "points": {
-                    "0": "Last year where I graduated with a bachelor degree in electronic and automatic"
+                    "0": "I graduated with a bachelor's degree in automation. Subjects studied inlude:",
+                    "1": "Computer Science, Signal Processing Automation, Mechanics, Hydraulics"
                 },
                 "location": "Grenoble, France"
             },
@@ -182,7 +189,7 @@
                 "school_name": "Lycée Claude Fauriel",
                 "date": "September 2018 - June 2021",
                 "points": {
-                    "0": "Preparation for entry to a selective university in a preparatory school."
+                    "0": "I took intensives courses in a preparatory class for the grandes écoles in order to enter a selective french university."
                 },
                 "location": "Saint-Étienne, France"
             }
@@ -194,25 +201,25 @@
             "head": "Highlights"
         },
         "0": {
-            "testimonial": "I followed an international exchange programme in South korea during 6 months. I was at Postech University. ",
+            "testimonial": "I did an international exchange in South Korea during 6 months at Postech University. ",
             "name": "Postech, South Korea",
-            "designation": "Univeristy courses"
+            "designation": "University courses"
         },
         "1": {
-            "testimonial": "During my gap year I stayed one year in japan. I follow intense Japanese Courses to pass the JLPT N3.",
+            "testimonial": "During my gap year I stayed one year in japan. I attended intense Japanese Courses to pass the JLPT N3.",
             "name": "Yokohama, Japan",
             "designation": "Language courses"
         },
         "2": {
-            "testimonial": "I carried out an internishp as software developpment in the AX company. I worked on the creation of a metaverse.",
+            "testimonial": "I carried out an internship as a software development engineer in AX company. I worked on the creation of a metaverse.",
             "name": "Tokyo, Japan",
             "designation": "Engineering internship"
         }
     },
     "contact":{
         "titles": {
-            "subHead": "Get in touch",
-            "head": "Contact by mail"
+            "subHead": "Let's get in touch",
+            "head": "Contact by email"
         },
         "input": {
             "name": {
@@ -235,9 +242,9 @@
         "more": "Or way more"
     },
     "footer":{
-        "aboutus": "About us",
+        "aboutus": "About",
         "github": "GitHub",
         "license": "License",
-        "contactus" :"Contact us"
+        "contactus" :"Contact"
     }
 }

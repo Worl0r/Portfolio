@@ -50,6 +50,10 @@ import {
       title: "Skills",
     },
     {
+      id: "projects",
+      title: "Projects",
+    },
+    {
       id: "education",
       title: "Education",
     },
@@ -58,6 +62,12 @@ import {
       title: "Contact",
     },
   ];
+
+  const hero = [
+    {
+      schoolLink: "https://ense3.grenoble-inp.fr/"
+    }
+  ]
 
   const services = [
     {
@@ -86,7 +96,7 @@ import {
 
   const aboutEN =[
     {
-      description: "I am a french engineering student in Grenoble INP univerty. My major is signal processing and I am seeking an internship to work in a the biomedial fields.",
+      description: "",
       cvEN: CVConversBrice
     }
   ]
@@ -95,43 +105,43 @@ import {
     {
       name: "HTML 5",
       icon: html,
-      category: "Front-end Web",
+      category: "Frontend Web",
       link: "https://en.wikipedia.org/wiki/HTML5",
     },
     {
       name: "CSS 3",
       icon: css,
-      category: "Front-end Web",
+      category: "Frontend Web",
       link: "https://en.wikipedia.org/wiki/CSS",
     },
     {
       name: "JavaScript",
       icon: javascript,
-      category: "Front-end Web",
+      category: "Frontend Web",
       link: "https://en.wikipedia.org/wiki/JavaScript",
     },
     {
       name: "React JS",
       icon: reactjs,
-      category: "Front-end Web",
+      category: "Frontend Web",
       link: "https://en.wikipedia.org/wiki/React_(software)",
     },
     {
       name: "Tailwind CSS",
       icon: tailwind,
-      category: "Front-end Web",
+      category: "Frontend Web",
       link: "https://en.wikipedia.org/wiki/Tailwind_CSS",
     },
     {
       name: "MySQL",
       icon: mySQL,
-      category: "Back-end Web",
+      category: "Backend Web",
       link: "https://en.wikipedia.org/wiki/MySQL",
     },
     {
       name: "Three JS",
       icon: threeJs,
-      category: "Front-end Web",
+      category: "Frontend Web",
       link: "https://en.wikipedia.org/wiki/Three.js",
     },
     {
@@ -167,7 +177,7 @@ import {
     {
       name: "C#",
       icon: cSharp,
-      category: "Back-end Web",
+      category: "Backend Web",
       link: "https://en.wikipedia.org/wiki/C_Sharp_(programming_language)",
     },
     {
@@ -179,13 +189,13 @@ import {
     {
       name: "Go",
       icon: go,
-      category: "Back-end Web",
+      category: "Backend Web",
       link: "https://en.wikipedia.org/wiki/Go_(programming_language)",
     },
     {
       name: "Unity",
       icon: unity,
-      category: "Back-end Web",
+      category: "Backend Web",
       link: "https://en.wikipedia.org/wiki/Unity_(game_engine)",
     },
     {
@@ -211,10 +221,10 @@ import {
       name: "Software Development",
     },
     {
-      name: "Front-end Web",
+      name: "Frontend Web",
     },
     {
-      name: "Back-end Web",
+      name: "Backend Web",
     },
     {
       name: "Blockchain",
@@ -229,8 +239,9 @@ import {
       iconBg: "#383E56",
       date: "March 2023 - August 2023",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+        "",
+        "",
+        "",
         "",
       ],
       location: "Shibuya, Tokyo, Japan",
@@ -244,10 +255,10 @@ import {
       iconBg: "#E6DEDD",
       date: "Juin 2022 - September 2022",
       points: [
-        "Engineer for the study and improvement of airborne radar data processing algorithms.",
-        "Use of matlab to work on data processing scripts.",
-        "Discovery of data processing algorithms for airborne radar.",
-        "Preparation of documentation and team presentations.",
+        "",
+        "",
+        "",
+        "",
       ],
       location: "Bordeaux, France",
       link: "https://www.thalesgroup.com/fr",
@@ -260,8 +271,8 @@ import {
       iconBg: "#383E56",
       date: "March 2021 - April 2022",
       points: [
-        "Management accounting, participation in audits of the stucture.",
-        "Teamwork and participation in business management training courses.",
+        "",
+        "",
       ],
       location: "Grenoble, France",
       link: "https://junior-ense3.fr/",
@@ -274,8 +285,8 @@ import {
       iconBg: "#383E56",
       date: "June 2021 - August 2022",
       points: [
-        "Internship required to be graduated.",
-        "working as a laborer in a plastics factory.",
+        "",
+        "",
       ],
       location: "Saint-Romain-Lachalm, France",
       link: "https://www.leygatech.com/",
@@ -285,69 +296,69 @@ import {
 
   const education = [
     {
-      title: "Master in engineering departement",
-      school_name: "Grenoble INP, Phelma",
+      title: "",
+      school_name: "",
       icon: Phelma,
       iconBg: "#383E56",
-      date: "September 2021 - January 2022 and September 2023 - January 2023",
+      date: "",
       points: [
-        "Last year before to be graduated with major of signal image and signal processing ",
+        "",
       ],
-      location: "Grenoble, France",
+      location: "",
       link: "https://phelma.grenoble-inp.fr/",
     },
     {
-      title: "Japanese Language School",
-      school_name: "Yokohama Design College",
+      title: "",
+      school_name: "",
       icon: YDC,
       iconBg: "#383E56",
-      date: "October 2022 - March 2023",
+      date: "",
       points: [
-        "Intensive Japanese course to prepare for the official JLPT exam",
+        "",
       ],
-      location: "Yokohama, Japan",
+      location: "",
       link: "https://www.ydc.ac.jp/",
     },
     {
-      title: "Academic exchange in foreign university",
-      school_name: "POSTECH",
+      title: "",
+      school_name: "",
       icon: Postech,
       iconBg: "#383E56",
-      date: "January 2023 - June 2023",
+      date: "",
       points: [
-        "Electrical and computer departement",
-        "Courses",
-        "Radar Imaging (Matlab),",
-        "Machine Learning,",
-        "Introduction to Digital Communication",
-        "Data Structure (C++),",
-        "Bockchain & Cryptocurrency (Solidity)",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
       ],
-      location: "Pohang, South Korea",
+      location: "",
       link: "https://www.postech.ac.kr/eng/",
     },
     {
-      title: "Bachelor in engineering departement",
-      school_name: "Grenoble INP, Ense3",
+      title: "",
+      school_name: "",
       icon: Ense3,
       iconBg: "#383E56",
-      date: "September 2020 - June 2021",
+      date: "",
       points: [
-        "Last year where I have been graduated in mechanical and automatical bachelor",
+        "",
+        "",
       ],
-      location: "Grenoble, France",
+      location: "",
       link: "https://www.grenoble-inp.fr/",
     },
     {
-      title: "Preparatory Technology School",
-      school_name: "Lycée Claude Fauriel",
+      title: "",
+      school_name: "",
       icon: LCF,
       iconBg: "#383E56",
-      date: "September 2018 - June 2021",
+      date: "",
       points: [
-        "Preparation for entry to a selective university in a preparatory school.",
+        "",
       ],
-      location: "Saint-Étienne, France",
+      location: "",
       link: "https://www.grenoble-inp.fr/",
     },
   ]
@@ -355,36 +366,36 @@ import {
   const testimonials = [
     {
       testimonial:
-        "I followed an international exchange programme in South korea during 6 months. I was at Postech University. ",
-      name: "Postech, South Korea",
-      designation: "Univeristy courses",
+        "",
+      name: "",
+      designation: "",
       company: "",
       image: "",
       linkLogo: Postech,
       secondImage: south_korea,
-      link: "https://www.postech.ac.kr/eng/",
+      link: "",
     },
     {
       testimonial:
-        "During my gap year I stayed one year in japan. I follow intense Japanese Courses to pass the JLPT N3.",
-      name: "Yokohama, Japan",
-      designation: "Language courses",
+        "",
+      name: "",
+      designation: "",
       company: "",
       image: "",
       linkLogo: YDC,
       secondImage: japan,
-      link: "https://www.ydc.ac.jp/",
+      link: "",
     },
     {
       testimonial:
-        "I carried out an internishp as software developpment in the AX company. I worked on the creation of a metaverse.",
-      name: "Tokyo, Japan",
-      designation: "Engineering internship",
+        "",
+      name: "",
+      designation: "",
       company: "",
       image: "",
       linkLogo: AXinc,
       secondImage: japan,
-      link: "https://axinc.jp/",
+      link: "",
     },
   ];
 
@@ -392,7 +403,7 @@ import {
     {
       name: "My Personal Portfolio 3D",
       description:
-        "A comprehensive personal portfolio platform that allows to present my projects, purpose, and motivation, in order to get a job.",
+        "",
       tags: [
         {
           name: "react",
@@ -428,4 +439,4 @@ const footer = [
   }
 ]
 
-  export { services,languages, aboutEN, technologies, categories, experiences, education, testimonials, projects, socialNetworks, footer };
+  export { services, hero, languages, aboutEN, technologies, categories, experiences, education, testimonials, projects, socialNetworks, footer };

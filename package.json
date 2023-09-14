@@ -20,7 +20,8 @@
     "sass": "^1.62.1",
     "scss": "^0.2.4",
     "three": "^0.153.0",
-    "tw-elements": "^1.0.0-beta2"
+    "tw-elements": "^1.0.0-beta2",
+    "vue-router": "^4.0.13"
   },
   "devDependencies": {
     "@emailjs/browser": "^3.11.0",
@@ -41,7 +42,11 @@
     "react-router-dom": "^6.11.2",
     "react-tilt": "^1.0.2",
     "react-vertical-timeline-component": "^3.6.0",
+    "sitemap": "^7.1.1",
     "tailwindcss": "^3.3.2",
-    "vite": "^4.3.9"
+    "vite": "^4.3.9",
+    "vite-plugin-pages": "^0.31.0",
+    "vite-plugin-pages-sitemap": "^1.6.1",
+    "vite-plugin-sitemap": "^0.4.2"
   }
 }

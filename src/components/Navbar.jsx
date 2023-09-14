@@ -30,7 +30,7 @@ const Navbar = () => {
 
           <motion.div
             variants={
-              slideIn("up", "tween", 0, 0.2)
+              slideIn("up", "tween", 0, 0.4)
             }
             className="text-white"
           >
@@ -75,7 +75,7 @@ const Navbar = () => {
               <motion.div
                 key={link.id}
                 variants={
-                slideIn("up", "tween", (index+2)*0.4, 0.2)
+                slideIn("up", "tween", (index+2)*0.2, 0.4)
               }
               >
                 <li
