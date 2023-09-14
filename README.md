@@ -63,18 +63,9 @@ You can try other flags in the command with this website: **[How to use chown co
 # To Do List
 What I plan to do in the future:
 
-- [ ] Finish the translation in: JP, FR, EN.
-- [x] Finish to decide colors for the light mode.
-- [ ] Create and add a new email for mailjs components.
+- [ ] Finish the translation in japanese.
 - [ ] Details more about the internships and about hypotetical demo.
 - [ ] Implement the functionality to choose a CV according the selected language.
-
-And Juste before to deploy:
-
-- [ ] Correct all mistakes in the text.
-- [ ] Read and clean the code for the git hub.
-- [x] Create a repo on git hub.
-- [x] Create a domain for the portfolio.
 
 # Credits
 

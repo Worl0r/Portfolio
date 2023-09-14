@@ -86,11 +86,6 @@ import {
       language: "Français",
       code: "fr",
       icon: france,
-    },
-    {
-      language: "Japanese",
-      code: "jp",
-      icon: japan,
     }
   ]
 
