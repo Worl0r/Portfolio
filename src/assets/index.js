@@ -53,7 +53,7 @@ import languagesIcon from "./languages.png"
 
 import linkedin from "./icons_social_network/linkedin.png"
 
-import CVConversBrice from "./cv/CV_CONVERS_Brice_EN.pdf"
+import CVConversBrice from "./cv/Brice_s_Resume_EN.pdf"
 
 export {
   logo,

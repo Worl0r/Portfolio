@@ -194,12 +194,6 @@ import {
       link: "https://en.wikipedia.org/wiki/Unity_(game_engine)",
     },
     {
-      name: "Tensor Flow",
-      icon: tensorFlow,
-      category: "Machine Learning",
-      link: "https://en.wikipedia.org/wiki/TensorFlow",
-    },
-    {
       name: "Web3.js",
       icon: web3js,
       category: "Blockchain",
