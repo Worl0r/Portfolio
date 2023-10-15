@@ -58,7 +58,7 @@
     "about": {
         "introduction": "Introduction",
         "overview": "Aperçu",
-        "description": "À travers mon parcours, j'ai découvert de nombreuses technologies et concepts théoriques, mais j'ai également mis en pratique mes connaissances dans le cadre de divers projets. Actuellement en dernière année d'études, je suis à la recherche d'une entreprise dans laquelle je pourrai m'épanouir.",
+        "description": "À travers mon parcours, j'ai découvert de nombreuses technologies et concepts théoriques, mais j'ai également mis en pratique mes connaissances dans le cadre de divers projets. Actuellement en dernière année d'études, je suis à la recherche d'un stage en entreprise durant lequel je pourrais approfondir mes connaissances et développer davantage mes compétences. Je suis particulièrement intéressé à découvrir et appliquer mes compétences déjà acquises dans des domaines tels que le biomédical ou la data science.",
         "try": "Clique juste !"
     },
     "experiences": {
@@ -97,7 +97,7 @@
             "date": "Mars 2021 - Avril 2022",
             "points": {
                 "0": "J'ai été introduit à de nouvelles compétences comme la gestion financière, la comptabilité, et j'ai aussi participé aux audits de la structure.",
-                "1": "Cette expérience été réalisée essentiellement en équipe et j'ai eu l'opportunité de participer à des formations en gestion d'entreprise."
+                "1": "Cette expérience a été réalisée essentiellement en équipe et j'ai eu l'opportunité de participer à des formations en gestion d'entreprise."
             },
             "location": "Grenoble, France"
         },
@@ -132,8 +132,24 @@
         },
         "description": "Les projets suivants illustrent mes compétences et mon expérience à travers des exemples réalisés pendant mon temps libre. Chaque projet est brièvement décrit avec des liens vers des dépôts de code et des démonstrations en direct.",
         "0": {
-            "name": "Mon Portfolio personnel",
+            "name": "Mon Portfolio Personnel",
             "description": "Un portfolio personnel complet qui permet de présenter mes projets, mes objectifs et mes motivations, afin de montrer mon investissement dans l'informatique."
+        },
+        "1": {
+            "name": "Création d'un Assembler Python en C",
+            "description": "Création d'un assembleur python en langage C. J'étais chef de projet au sein d'un groupe de 3 étudiants. Le projet a représenté environ 100 heures de travail. Compétences: Linux/ Git/ Langage C."
+        },
+        "2": {
+            "name": "Prédiction Pollution Atmosphérique",
+            "description": "Prédiction de la pollution atmosphérique d'une région en appliquant différentes méthodes d'apprentissage automatique. L'objectif était de mesurer également la précision de nos prédictions."
+        },
+        "3": {
+            "name": "Réseau Social pour Recettes de Cuisine (en cours 50%)",
+            "description": "Création d'un petit réseau social pour partager ces recettes avec ces amis. Le site est toujours en cours de construction. Utilisation de NextJS dans le projet pour une gestion du backend et le frontend ensemble."
+        },
+        "4": {
+            "name": "Jeu d'échec in C++ (en cours 80%)",
+            "description": "Jeu d'échec codé en C++ sans interface graphique. L'objectif était d'apprendre la programmation orientée objet."
         }
     },
     "education": {

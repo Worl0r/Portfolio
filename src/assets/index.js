@@ -27,6 +27,10 @@ import web3js from "./icons_technology/web3js.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import Portfolio3D from "./Portfolio3D.png";
+import cImage from "./cImage.png";
+import pythonImage from "./pythonImage.png";
+import CookingSocialNetwork from "./CookingSocialNetwork.png";
+import ChessGameImage from "./ChessGameImage.png";
 
 import nightMode from "./darkMode/night-mode.png";
 import lightMode from "./darkMode/light-mode.png";
@@ -83,6 +87,10 @@ export {
   carrent,
   jobit,
   Portfolio3D,
+  cImage,
+  pythonImage,
+  CookingSocialNetwork,
+  ChessGameImage,
   lightMode,
   nightMode,
   Ense3,

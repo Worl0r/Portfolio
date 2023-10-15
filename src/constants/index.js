@@ -33,7 +33,11 @@ import {
     france,
     Portfolio3D,
     linkedin,
-    CVConversBrice
+    CVConversBrice,
+    cImage,
+    pythonImage,
+    CookingSocialNetwork,
+    ChessGameImage
   } from "../assets";
 
   export const navLinks = [
@@ -410,6 +414,74 @@ import {
       image: Portfolio3D,
       source_code_link: "https://github.com/Worl0r/Portfolio.git",
       demo_code_link: "https://briceconvers.com"
+    },
+    {
+      name: "Python Assembler Developement in C",
+      description:
+        "",
+      tags: [
+        {
+          name: "Git",
+          color: "orange-text-gradient",
+        },
+        {
+          name: "C",
+          color: "green-text-gradient",
+        }
+      ],
+      image: cImage,
+      source_code_link: "",
+      demo_code_link: ""
+    },
+    {
+      name: "Air Pollution Prediction",
+      description:
+        "",
+      tags: [
+        {
+          name: "Pyhton",
+          color: "pink-text-gradient",
+        }
+      ],
+      image: pythonImage,
+      source_code_link: "",
+      demo_code_link: ""
+    },
+    {
+      name: "Cooking Social Network",
+      description:
+        "",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "tailwind",
+          color: "green-text-gradient",
+        },
+        {
+          name: "NextJS",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: CookingSocialNetwork,
+      source_code_link: "https://github.com/Worl0r/Shokuryo",
+      demo_code_link: ""
+    },
+    {
+      name: "Chess Game in C",
+      description:
+        "",
+      tags: [
+        {
+          name: "C",
+          color: "orange-text-gradient",
+        }
+      ],
+      image: ChessGameImage,
+      source_code_link: "https://github.com/Worl0r/ChessGame",
+      demo_code_link: ""
     }
   ];
 

@@ -58,7 +58,7 @@
     "about": {
         "introduction": "Who I am",
         "overview": "Overview",
-        "description": "My studies have introduced me to a wide range of technologies and theoretical concepts, but I have also put my knowledge into practice through various projects. Currently in my final year of studies, I am looking for an internship in which I can thrive. Most importantly, I would like to make the most of my knowledge acquired through my experiences.",
+        "description": "Over the course of my studies, I have been exposed to a wide range of technologies and theoretical concepts, I have also applied my knowledge into practice through various projects. Currently in my final year of studies, I am looking for an internship in which I can further develop my skills and deepen my knowledge. Highly motivated and curious, I would like to challenge myself by carrying out my internship in the field of biomedical or in data science.",
         "try": "Give it a go!"
     },
     "experiences": {
@@ -71,7 +71,7 @@
             "company_name": "AXinc. | ax株式会社",
             "date": "March 2023 - August 2023",
             "points": {
-                "0": "I Developed frontend elements for a metaverse project called Zexaland. For instance, I created a login component with metamask in javascript.",
+                "0": "I developed frontend elements for a metaverse project called Zexaland. For instance, I created a login component with metamask in javascript.",
                 "1": "In addition, I improved backend's fonctionalities in this project, such as adding new routes or creating a virtual cursor in the Unity part.",
                 "2": "I also helped to test and improve a significant project based on the detection of dashboard's car elements with image processing scripts.",
                 "3": "Finally, I built a cash update system on a AWS S3 server in order to sync up all data of the dashboard images project."
@@ -133,7 +133,23 @@
         "description": "The following projects showcase my skills and experience through examples done during my free time. Each project is briefly described with\nlinks to code repositories and live demos.",
         "0": {
             "name": "My Personal Portfolio 3D",
-            "description": "A comprehensive personal portfolio platform that presents my projects, objectives and motivation."
+            "description": "A comprehensive personal portfolio platform that presents my projects, objectives and motivation.  I created this website during my free time."
+        },
+        "1": {
+            "name": "Python Assembler Developement in C",
+            "description": "Creation of a python assembler in the C language. I was project leader among a group of 3 students. Skills: Linux environment/ Git/ Refinement of C language skills."
+        },
+        "2": {
+            "name": "Air Pollution Prediction",
+            "description": "Prediction of air pollution through the implementation of different machine learning methods. We had at our disposal a training data set equivalent to measurements over several years. The aim was to measure also the accuracy of our predictions."
+        },
+        "3": {
+            "name": "Cooking Social Network (Pending 50%)",
+            "description": "Creation of a small social network to share these recipes with friends. The site is still under construction. Using NextJS in the project to manage the backend and frontend together."
+        },
+        "4": {
+            "name": "Chess Game in C++ (Pending 80%)",
+            "description": "Chess game coded in C++ with no graphical interface. The aim was to learn object-oriented programming."
         }
     },
     "education": {
@@ -147,7 +163,7 @@
                 "school_name": "Grenoble INP, Phelma",
                 "date": "September 2021 - January 2022 and September 2023 - September 2024",
                 "points": {
-                    "0": "Major in Signal and image processing, communication systems, multimedia (SICOM)"
+                    "0": "Major in Signal and Image processing, Communication systems, Multimedia (SICOM)"
                 },
                 "location": "Grenoble, France"
             },
@@ -170,7 +186,7 @@
                     "2": "Machine Learning,",
                     "3": "Introduction to Digital Communication",
                     "4": "Data Structure (C++),",
-                    "5": "Bockchain & Cryptocurrency (Solidity)"
+                    "5": "Bockchain & Cryptocurrency"
                 },
                 "location": "Pohang, South Korea"
             },
@@ -189,7 +205,7 @@
                 "school_name": "Lycée Claude Fauriel",
                 "date": "September 2018 - June 2021",
                 "points": {
-                    "0": "I took intensives courses in a preparatory class for the grandes écoles in order to enter a selective french university."
+                    "0": "I took intensives courses in a preparatory class for the grandes écoles in order to enter a selective French university."
                 },
                 "location": "Saint-Étienne, France"
             }
@@ -206,12 +222,12 @@
             "designation": "University courses"
         },
         "1": {
-            "testimonial": "During my gap year I stayed one year in japan. I attended intense Japanese Courses to pass the JLPT N3.",
+            "testimonial": "During my gap year I stayed one year in Japan. I attended intense Japanese Courses to pass the JLPT N3.",
             "name": "Yokohama, Japan",
             "designation": "Language courses"
         },
         "2": {
-            "testimonial": "I carried out an internship as a software development engineer in AX company. I worked on the creation of a metaverse.",
+            "testimonial": "I carried out an internship as a software development engineer at AX inc. I worked on the creation of a metaverse.",
             "name": "Tokyo, Japan",
             "designation": "Engineering internship"
         }

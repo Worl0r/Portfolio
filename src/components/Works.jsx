@@ -26,7 +26,7 @@ const ProjectCard = ({
           scale: 1,
           speed: 450,
         }}
-        className='bg-inputBackground dark:bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full min-h-[480px] shadow-card'
+        className='bg-inputBackground dark:bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full min-h-[520px] shadow-card'
       >
         <div className='relative w-full h-[230px]'>
           <img
@@ -36,7 +36,9 @@ const ProjectCard = ({
           />
 
           <div className='absolute inset-0 flex gap-[5px] justify-end m-3 card-img_hover'>
-            <div
+
+            {source_code_link ? (
+              <div
               onClick={() => window.open(source_code_link, "_blank")}
               className='black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer hover:scale-110 transition-all ease-in-out duration-200 border border-secondary'
             >
@@ -46,6 +48,9 @@ const ProjectCard = ({
                 className='w-1/2 h-1/2 object-contain'
               />
             </div>
+            ) : (<div></div>)}
+
+            {demo_code_link ? (
             <div
               onClick={() => window.open(demo_code_link, "_blank")}
               className='black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer hover:scale-110 transition-all ease-in-out duration-200 border border-secondary'
@@ -55,7 +60,7 @@ const ProjectCard = ({
                   alt='demo code'
                   className='w-3/4 h-3/4 object-contain invert'
                 />
-            </div>
+            </div>) : (<div></div>)}
           </div>
         </div>
 
@@ -64,11 +69,11 @@ const ProjectCard = ({
           <p className='mt-2 text-secondary text-[14px]'>{t(`projects.${index}.description`)}</p>
         </div>
 
-        <div className='mt-4 flex flex-wrap gap-2'>
+        <div className='mt-4 flex flex-wrap gap-2 bottom-0'>
           {tags.map((tag) => (
             <p
               key={`${name}-${tag.name}`}
-              className={`text-[14px] ${tag.color}`}
+              className={`text-[14px] ${tag.color} bottom-0`}
             >
               #{tag.name}
             </p>
