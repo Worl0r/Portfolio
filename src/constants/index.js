@@ -15,6 +15,7 @@ import {
     python,
     solidity,
     web3js,
+    pytorch,
     tensorFlow,
     unity,
     threeJs,
@@ -37,7 +38,8 @@ import {
     cImage,
     pythonImage,
     CookingSocialNetwork,
-    ChessGameImage
+    ChessGameImage,
+    DLsicomProject
   } from "../assets";
 
   export const navLinks = [
@@ -69,7 +71,7 @@ import {
 
   const hero = [
     {
-      schoolLink: "https://ense3.grenoble-inp.fr/"
+      schoolLink: "https://phelma.grenoble-inp.fr/"
     }
   ]
 
@@ -160,6 +162,12 @@ import {
       icon: python,
       category: "Machine Learning",
       link: "https://en.wikipedia.org/wiki/Python_(programming_language)",
+    },
+    {
+      name: "Pytorch",
+      icon: pytorch,
+      category: "Machine Learning",
+      link: "https://en.wikipedia.org/wiki/PyTorch",
     },
     {
       name: "C",
@@ -394,6 +402,28 @@ import {
 
   const projects = [
     {
+      name: "Deep Learning for Image Classification",
+      description:
+        "",
+      tags: [
+        {
+          name: "Python",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "Pytorch",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Gricad",
+          color: "orange-text-gradient",
+        },
+      ],
+      image: DLsicomProject,
+      source_code_link: "",
+      demo_code_link: ""
+    },
+    {
       name: "My Personal Portfolio 3D",
       description:
         "",
@@ -475,7 +505,7 @@ import {
         "",
       tags: [
         {
-          name: "C",
+          name: "C++",
           color: "orange-text-gradient",
         }
       ],

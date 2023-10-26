@@ -44,7 +44,7 @@
         "name": "Brice Convers",
         "purpose":{
             "0": "an engineering student at ",
-            "1": "Grenoble INP Ense3,",
+            "1": "Grenoble INP Phelma and Ense3,",
             "2": " majoring in ",
             "3": "signal processing",
             "4": "and",
@@ -132,24 +132,28 @@
         },
         "description": "The following projects showcase my skills and experience through examples done during my free time. Each project is briefly described with\nlinks to code repositories and live demos.",
         "0": {
+            "name": "Deep Learning for Image Segmentation (Still in progress)",
+            "description": "Creation of Semantic Segmentation Model for drone Images. This is a very important project for my final year of study, during which I have to segment images of drones. We use the UGA supercomputer called Gricad to train our models."
+        },
+        "1": {
             "name": "My Personal Portfolio 3D",
             "description": "A comprehensive personal portfolio platform that presents my projects, objectives and motivation.  I created this website during my free time."
         },
-        "1": {
+        "2": {
             "name": "Python Assembler Developement in C",
             "description": "Creation of a python assembler in the C language. I was project leader among a group of 3 students. Skills: Linux environment/ Git/ Refinement of C language skills."
         },
-        "2": {
+        "3": {
             "name": "Air Pollution Prediction",
             "description": "Prediction of air pollution through the implementation of different machine learning methods. We had at our disposal a training data set equivalent to measurements over several years. The aim was to measure also the accuracy of our predictions."
         },
-        "3": {
-            "name": "Cooking Social Network (Pending 50%)",
-            "description": "Creation of a small social network to share these recipes with friends. The site is still under construction. Using NextJS in the project to manage the backend and frontend together."
-        },
         "4": {
-            "name": "Chess Game in C++ (Pending 80%)",
-            "description": "Chess game coded in C++ with no graphical interface. The aim was to learn object-oriented programming."
+            "name": "Cooking Social Network (Pending 50%)",
+            "description": "Personal project where I created a small social network to share recipes with friends. The website is still in progress. I used NextJS in the project to manage the backend and frontend together."
+        },
+        "5": {
+            "name": "Chess Game in C++ (Pending 90%)",
+            "description": "This is a personal project where I coded a Chess Game in C++ with no graphical interface. The aim was to learn object-oriented programming."
         }
     },
     "education": {

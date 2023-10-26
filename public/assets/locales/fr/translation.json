@@ -44,7 +44,7 @@
         "name": "Brice Convers",
     "purpose":{
         "0": "Étudiant ingénieur à ",
-        "1": "Grenoble INP l'Ense3,",
+        "1": "Grenoble INP Phelma et Ense3,",
         "2": " j'ai pour spécialisation ",
         "3": "traitement du signal",
         "4": "et",
@@ -132,24 +132,28 @@
         },
         "description": "Les projets suivants illustrent mes compétences et mon expérience à travers des exemples réalisés pendant mon temps libre. Chaque projet est brièvement décrit avec des liens vers des dépôts de code et des démonstrations en direct.",
         "0": {
+            "name": "Segmentation d'Images avec du Deep Learning (En cours)",
+            "description": "Création d'un modèle de segmentation sémantique pour les images de drones. Il s'agit d'un projet très important pour ma dernière année d'études, au cours de laquelle je dois segmenter des images de drones. Nous utilisons le supercalculateur de l'UGA appelé Gricad pour entraîner nos modèles."
+        },
+        "1": {
             "name": "Mon Portfolio Personnel",
             "description": "Un portfolio personnel complet qui permet de présenter mes projets, mes objectifs et mes motivations, afin de montrer mon investissement dans l'informatique."
         },
-        "1": {
+        "2": {
             "name": "Création d'un Assembler Python en C",
             "description": "Création d'un assembleur python en langage C. J'étais chef de projet au sein d'un groupe de 3 étudiants. Le projet a représenté environ 100 heures de travail. Compétences: Linux/ Git/ Langage C."
         },
-        "2": {
+        "3": {
             "name": "Prédiction Pollution Atmosphérique",
             "description": "Prédiction de la pollution atmosphérique d'une région en appliquant différentes méthodes d'apprentissage automatique. L'objectif était de mesurer également la précision de nos prédictions."
         },
-        "3": {
-            "name": "Réseau Social pour Recettes de Cuisine (en cours 50%)",
-            "description": "Création d'un petit réseau social pour partager ces recettes avec ces amis. Le site est toujours en cours de construction. Utilisation de NextJS dans le projet pour une gestion du backend et le frontend ensemble."
-        },
         "4": {
+            "name": "Réseau Social pour Recettes de Cuisine (en cours 50%)",
+            "description": "Projet personnel où j'ai créé un petit réseau social pour partager ces recettes avec ces amis. Le site est toujours en cours de construction. Utilisation de NextJS dans le projet pour une gestion du backend et le frontend ensemble."
+        },
+        "5": {
             "name": "Jeu d'échec in C++ (en cours 80%)",
-            "description": "Jeu d'échec codé en C++ sans interface graphique. L'objectif était d'apprendre la programmation orientée objet."
+            "description": "Projet personnel dans le but de coder un Jeu d'échec en C++ sans interface graphique. L'objectif était d'apprendre la programmation orientée objet."
         }
     },
     "education": {

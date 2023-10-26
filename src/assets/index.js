@@ -16,6 +16,7 @@ import javascript from "./icons_technology/javascript.png";
 import matlab from "./icons_technology/matlab.png";
 import mySQL from "./icons_technology/mySQL.png";
 import python from "./icons_technology/python.png";
+import pytorch from "./icons_technology/pytorch.png";
 import reactjs from "./icons_technology/reactjs.png";
 import solidity from "./icons_technology/solidity.png";
 import tailwind from "./icons_technology/tailwind.png";
@@ -24,6 +25,7 @@ import threeJs from "./icons_technology/threejs.svg";
 import unity from "./icons_technology/unity.svg";
 import web3js from "./icons_technology/web3js.png";
 
+import DLsicomProject from "./DLsicomProject.png"
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import Portfolio3D from "./Portfolio3D.png";
@@ -86,9 +88,11 @@ export {
   web3js,
   carrent,
   jobit,
+  DLsicomProject,
   Portfolio3D,
   cImage,
   pythonImage,
+  pytorch,
   CookingSocialNetwork,
   ChessGameImage,
   lightMode,
