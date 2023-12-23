@@ -58,7 +58,7 @@
     "about": {
         "introduction": "Who I am",
         "overview": "Overview",
-        "description": "Over the course of my studies, I have been exposed to a wide range of technologies and theoretical concepts, I have also applied my knowledge into practice through various projects. Currently in my final year of studies, I am looking for an internship in which I can further develop my skills and deepen my knowledge. Highly motivated and curious, I would like to challenge myself by carrying out my internship in the field of biomedical or in data science.",
+        "description": "Over the course of my studies, I have been exposed to a wide range of technologies and theoretical concepts, I have also applied my knowledge into practice through various projects. Currently in my final year of studies, I am looking for an internship in which I can further develop my skills and deepen my knowledge. Highly motivated and curious, I would like to challenge myself by carrying out my internship in the field of signal processing or in data science.",
         "try": "Give it a go!"
     },
     "experiences": {
@@ -132,26 +132,30 @@
         },
         "description": "The following projects showcase my skills and experience through examples done during my free time. Each project is briefly described with\nlinks to code repositories and live demos.",
         "0": {
-            "name": "Deep Learning for Image Segmentation (Still in progress)",
-            "description": "Creation of Semantic Segmentation Model for drone Images. This is a very important project for my final year of study, during which I have to segment images of drones. We use the UGA supercomputer called Gricad to train our models."
+            "name": "Deep Learning for Image Segmentation with U-NET",
+            "description": "Creation of Semantic Segmentation Model for drone Images. This is a huge project for my final year of study, during which I have to segment images of drones. We use the UGA supercomputer called Gricad to train our models."
         },
         "1": {
+            "name": "Autotune Software in C++ Language",
+            "description": "Creation of autotune in C++ language. The goal was to create a program that can correct the pitch of a voice. I used the RT-Audio library to create this program."
+        },
+        "2": {
             "name": "My Personal Portfolio 3D",
             "description": "A comprehensive personal portfolio platform that presents my projects, objectives and motivation.  I created this website during my free time."
         },
-        "2": {
+        "3": {
             "name": "Python Assembler Developement in C",
             "description": "Creation of a python assembler in the C language. I was project leader among a group of 3 students. Skills: Linux environment/ Git/ Refinement of C language skills."
         },
-        "3": {
+        "4": {
             "name": "Air Pollution Prediction",
             "description": "Prediction of air pollution through the implementation of different machine learning methods. We had at our disposal a training data set equivalent to measurements over several years. The aim was to measure also the accuracy of our predictions."
         },
-        "4": {
+        "5": {
             "name": "Cooking Social Network (Pending 50%)",
             "description": "Personal project where I created a small social network to share recipes with friends. The website is still in progress. I used NextJS in the project to manage the backend and frontend together."
         },
-        "5": {
+        "6": {
             "name": "Chess Game in C++ (Pending 90%)",
             "description": "This is a personal project where I coded a Chess Game in C++ with no graphical interface. The aim was to learn object-oriented programming."
         }

@@ -33,6 +33,7 @@ import cImage from "./cImage.png";
 import pythonImage from "./pythonImage.png";
 import CookingSocialNetwork from "./CookingSocialNetwork.png";
 import ChessGameImage from "./ChessGameImage.png";
+import autotune from "./autotune.avif";
 
 import nightMode from "./darkMode/night-mode.png";
 import lightMode from "./darkMode/light-mode.png";
@@ -113,5 +114,6 @@ export {
   england,
   languagesIcon,
   linkedin,
-  CVConversBrice
+  CVConversBrice,
+  autotune
 };

@@ -39,7 +39,8 @@ import {
     pythonImage,
     CookingSocialNetwork,
     ChessGameImage,
-    DLsicomProject
+    DLsicomProject,
+    autotune
   } from "../assets";
 
   export const navLinks = [
@@ -402,7 +403,7 @@ import {
 
   const projects = [
     {
-      name: "Deep Learning for Image Classification",
+      name: "Deep Learning for Image Classification with U-NET",
       description:
         "",
       tags: [
@@ -420,7 +421,25 @@ import {
         },
       ],
       image: DLsicomProject,
-      source_code_link: "",
+      source_code_link: "https://github.com/Worl0r/Semantic_Segmentation_U-NET",
+      demo_code_link: ""
+    },
+    {
+      name: "Autotune in C Language",
+      description:
+        "",
+      tags: [
+        {
+          name: "C/C++",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Signal Processing",
+          color: "blue-text-gradient",
+        }
+      ],
+      image: autotune,
+      source_code_link: "https://github.com/SimLrt32/autotune_project",
       demo_code_link: ""
     },
     {
@@ -429,11 +448,11 @@ import {
         "",
       tags: [
         {
-          name: "react",
+          name: "React",
           color: "blue-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "Tailwind",
           color: "green-text-gradient",
         },
         {
@@ -471,6 +490,10 @@ import {
         {
           name: "Pyhton",
           color: "pink-text-gradient",
+        },
+        {
+          name: "Scikit-learn",
+          color: "green-text-gradient",
         }
       ],
       image: pythonImage,
@@ -483,11 +506,11 @@ import {
         "",
       tags: [
         {
-          name: "react",
+          name: "React",
           color: "blue-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "Tailwind",
           color: "green-text-gradient",
         },
         {
